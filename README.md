@@ -1,2 +1,2 @@
 # math_cp
-Toán trong cp khiến t đau đầu
+Toán trong cp và những lần làm t nhức nhức cái đầu 

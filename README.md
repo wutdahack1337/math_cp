@@ -18,3 +18,5 @@ Sau một hồi ngẫm nghĩ, thì t mới nhận ra quả thực là như vậy
 - Mod cho 2^j chỉ có thể giữ lại j bit đầu tiên tại vì: từ bit thứ j+1 trở đi (2^j, 2 * 2^j, 2 * 2 * 2^j,...) % 2^j đều bằng 0. 
 - Vậy chỉ cần cho j chạy từ bit thứ 0 đến bit thứ log2(max(a_i)), với mỗi bit thứ j, ta chỉ có 2 trường hợp là 0 và 1, nếu a_i có bit thứ j toàn bộ là 0 hết hoặc 1 hết thì xét tiếp (a_i % 2^j đều bằng nhau); còn nếu chia ra một bên 0, một bên 1 (a_i % 2^j có sự khác biệt) thì 2^(j+1) chính là đáp án của bài toán.
 - Nếu t của tương lai có thắc mắc là tại sao đáp án lại là 2^(j+1) chứ không phải là 2^j, thì hãy nhớ j là số thứ tự của bit; còn đáp án phải là bao nhiêu bit đầu tiên, do j bắt đầu từ 0 nên đáp án sẽ là 2^(j+1).
+
+Một góc nhìn mới quá hay ho ~~
